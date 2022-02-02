@@ -1,5 +1,5 @@
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 jpeg:
@@ -7,9 +7,9 @@ jpeg:
 libpng:
 - '1.6'
 libtiff:
-- 4.1.0
+- '4'
 libwebp:
-- '1.1'
+- '1'
 pin_run_as_build:
   jpeg:
     max_pin: x
@@ -21,7 +21,5 @@ pin_run_as_build:
     max_pin: x.x
 target_platform:
 - win-64
-vc:
-- '14'
 zlib:
 - '1.2'

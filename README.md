@@ -1,11 +1,11 @@
-About sdl_image
-===============
+About sdl_image-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdl_image-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.libsdl.org/index.php
 
 Package license: LGPL-2.1-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdl_image-feedstock/blob/main/LICENSE.txt)
 
 Summary: SDL_image is an image file loading library with Simple DirectMedia Layer
 

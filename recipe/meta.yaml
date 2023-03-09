@@ -11,7 +11,7 @@ source:
   - path: cmake/
 
 build:
-  number: 3
+  number: 4
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}
 
@@ -29,14 +29,14 @@ requirements:
     - libtiff
     - libpng
     - zlib
-    - jpeg
+    - libjpeg-turbo
     - libwebp
   run:
     - sdl
     - libtiff
     - libpng
     - zlib
-    - jpeg
+    - libjpeg-turbo
     - libwebp
 
 test:
